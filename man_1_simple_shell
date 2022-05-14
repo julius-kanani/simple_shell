@@ -1,4 +1,4 @@
-.TH hsh 1 "August 31, 2021" "1.0" "hsh General Commands Manual"
+.TH hsh 1 "May 12, 2022" "1.0" "hsh General Commands Manual"
 
 .SH NAME
 
@@ -119,11 +119,11 @@ br.
 \&$
 
 .SH BUGS
-No known bugs at this writing (August 31, 2021).
+No known bugs at this writing (May 12, 2022).
 Please report any issues to the authors.
 
 .SH AUTHOR
-Selam Ayehubirhan
-Aron Asegedom
+Abraham Aguvasu
+Julius Kanani
 .SH SEE ALSO
 sh
