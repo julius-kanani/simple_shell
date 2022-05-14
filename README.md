@@ -50,7 +50,7 @@ Standard functions and system calls employed in simple_shell include:
 
 ## Installation
 
-   - Clone this repository: `git clone "https://github.com//simple_shell.git"`
+   - Clone this repository: `git clone "https://github.com/julius-kanani/simple_shell.git"`
    - Change directories into the repository: `cd simple_shell`
    - Compile: `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
    - Run the shell in interactive mode: `./hsh`
