@@ -9,6 +9,7 @@
 int path_execute(char *command, vars_t *vars)
 {
 	pid_t child_pid;
+
 	if (access(command, X_OK) == 0)
 	{
 		child_pid = fork();
@@ -48,6 +49,7 @@ char *find_path(char **env)
 {
 	char *path = "PATH=";
 	unsigned int i, j;
+
 	for (i = 0; env[i] != NULL; i++)
 	{
 		for (j = 0; j < 5; j++)
@@ -162,6 +164,7 @@ int execute_cwd(vars_t *vars)
 int check_for_dir(char *str)
 {
 	unsigned int i;
+
 	for (i = 0; str[i]; i++)
 	{
 		if (str[i] == '/')
